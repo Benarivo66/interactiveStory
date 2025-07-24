@@ -7,6 +7,11 @@ const rl = readline.createInterface({
 
 let DEPTH = 0;
 
+/* 
+The story object contains nested objects similar to a linkedlist that provides room
+for a user to interact with the program recursively
+**/
+
 const story = {
   id: "start",
   text: "You have a choice to study in Nigeria or Europe",
@@ -172,6 +177,13 @@ const story = {
     },
   ],
 };
+
+
+/**
+     * outputs the result of a user's interaction with the program
+     * @param obj - The nested object similar to a linkedlist that holds
+     * the full story path
+     */
 
 const tellAStory = (obj) => {
   try {
