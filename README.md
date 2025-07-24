@@ -8,7 +8,7 @@ The purpose is to see how Javascript can be used interactively and recursively t
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/ea3adc83cb574ce690d218552c9edae7?sid=c16ef70b-64a6-4f11-9729-d9c7b60e90b4)
 
 # Development Environment
 
