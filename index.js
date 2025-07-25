@@ -14,13 +14,13 @@ for a user to interact with the program recursively
 
 const story = {
   id: "start",
-  text: "You have a choice to study in Nigeria or Europe",
+  text: "You are qualified to get a university education. You need to make a choice about the location.",
   choices: [
     {
       option: "Study in Nigeria",
       next: {
         id: "1",
-        text: "You are given a scholarship to study in Nigeria?",
+        text: "You are given a scholarship to study in Nigeria.",
         choices: [
           {
             option: "You choose a federal university",
@@ -64,7 +64,7 @@ const story = {
                     choices: [
                       {
                         option:
-                          "Instead you participate in science clubs and gained project experience and helped you get international funding for Masters program",
+                          "Instead you participate in science clubs and gained project experience that helped you get international funding for Masters program",
                         next: {
                           id: "1aba",
                           text: "Life is good",
@@ -191,7 +191,7 @@ const tellAStory = (obj) => {
       throw new Error("Invalid story structure.");
     }
 
-    obj.text;
+    console.log(obj.text);
     obj.choices.forEach((choice, index) => {
       console.log(
         boxen(`${index + 1}. ${choice.option}`, {
